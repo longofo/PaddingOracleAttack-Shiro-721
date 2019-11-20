@@ -10,5 +10,6 @@ Shiro-721 Padding Oracle Attack
 
 **注：** payloadFilePath为恶意的序列化数据文件，可以使用ysoserial生成，尽量选择payload短的，不然爆破时间很长，够等。中途出错了可能需要重新运行，可能是服务器扛不住的原因...
 
+**参考：**[https://blog.skullsecurity.org/2016/going-the-other-way-with-padding-oracles-encrypting-arbitrary-data](https://blog.skullsecurity.org/2016/going-the-other-way-with-padding-oracles-encrypting-arbitrary-data)
 
 **免责声明:本工具仅供安全测试学习用途,禁止非法使用**
